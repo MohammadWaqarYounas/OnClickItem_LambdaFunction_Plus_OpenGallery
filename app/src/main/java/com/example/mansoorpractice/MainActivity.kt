@@ -13,8 +13,6 @@ class MainActivity : AppCompatActivity() ,MyInterface{
 
 
     lateinit var recVIew:RecyclerView
-    lateinit var adapter:NewAdapter
-    lateinit var ad:NewAdapter
     lateinit var multiimage: List<Uri>
     lateinit var inter:MyInterface
 

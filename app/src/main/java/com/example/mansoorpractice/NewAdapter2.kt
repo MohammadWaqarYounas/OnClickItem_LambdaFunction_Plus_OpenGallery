@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class NewAdapter2(private val data: List<ModalClasss>,val onClick:(position: Int)->Unit): RecyclerView.Adapter<MyViewHolder>(){
+class NewAdapter2(val data: List<ModalClasss>, val onClick:(position: Int)->Unit): RecyclerView.Adapter<MyViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
        val view=LayoutInflater.from(parent.context).inflate(R.layout.revview_item,parent,false)
