@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() ,MyInterface{
     lateinit var inter:MyInterface
 
 
+
     private val openGalleryForMultipleImageSelection=registerForActivityResult(
         ActivityResultContracts.GetMultipleContents()){
         multiimage=it
